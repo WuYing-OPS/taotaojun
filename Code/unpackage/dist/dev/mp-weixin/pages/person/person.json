@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "my-message": "/components/uni-myMessage/uni-myMessage"
+  }
+}

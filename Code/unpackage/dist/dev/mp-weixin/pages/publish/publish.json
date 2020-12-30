@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "uni-publish": "/components/uni-publish/uni-publish"
+  }
+}

@@ -1,0 +1,109 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {}
+		},
+
+		{
+			"path": "pages/login/login",
+			"style": {}
+		}
+
+		, {
+			"path": "pages/person/person",
+			"style": {}
+		},
+		{
+			"path": "pages/search/search"
+		}
+
+		, {
+			"path": "pages/detail/detail",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": { //防止input框被软键盘遮住
+					"softinputMode": "adjustPan"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/collect/collect",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/myStore/myStore",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/update/update",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/myMessage/myMessage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"backgroundColor": "#F6F6F6",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#F6F6F6",
+		"navigationBarTextStyle": "black",
+		"navigationStyle": "custom",
+		"usingComponents": {
+			"l-dialog": "/wxcomponents/dist/dialog/index",
+			"l-popup": "/wxcomponents/dist/popup/index",
+			"l-input": "/wxcomponents/dist/input/index",
+			"l-error-tip": "/wxcomponents/dist/error-tip/index",
+			"l-mask": "/wxcomponents/dist/mask/index",
+			"l-toast": "/wxcomponents/dist/toast/index",
+			"l-transition": "/wxcomponents/dist/transition/index",
+			"l-message": "/wxcomponents/dist/message/index",
+			"l-grid": "/wxcomponents/dist/grid/index",
+			"l-grid-item": "/wxcomponents/dist/grid-item/index",
+			"l-icon": "/wxcomponents/dist/icon/index",
+			"l-card": "/wxcomponents/dist/card/index",
+			"l-loadmore": "/wxcomponents/dist/loadmore/index",
+			"l-loading": "/wxcomponents/dist/loading/index"
+			// "1-behaviors": "/wxcomponents/dist/behaviors/computeOffset"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#d81e06",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "./static/font/home.png",
+				"selectedIconPath": "static/font/home-selected.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/publish/publish",
+				"iconPath": "static/font/publish.png",
+				"selectedIconPath": "static/font/publish-selected.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/person/person",
+				"iconPath": "static/font/person.png",
+				"selectedIconPath": "static/font/person-selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}

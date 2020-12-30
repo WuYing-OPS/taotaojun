@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/publish/publish",
+    "pages/login/login",
+    "pages/person/person",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/collect/collect",
+    "pages/myStore/myStore",
+    "pages/update/update",
+    "pages/myMessage/myMessage",
+    "pages/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "./static/font/home.png",
+        "selectedIconPath": "static/font/home-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "iconPath": "static/font/publish.png",
+        "selectedIconPath": "static/font/publish-selected.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/font/person.png",
+        "selectedIconPath": "static/font/person-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "l-dialog": "/wxcomponents/dist/dialog/index",
+    "l-popup": "/wxcomponents/dist/popup/index",
+    "l-input": "/wxcomponents/dist/input/index",
+    "l-error-tip": "/wxcomponents/dist/error-tip/index",
+    "l-mask": "/wxcomponents/dist/mask/index",
+    "l-toast": "/wxcomponents/dist/toast/index",
+    "l-transition": "/wxcomponents/dist/transition/index",
+    "l-message": "/wxcomponents/dist/message/index",
+    "l-grid": "/wxcomponents/dist/grid/index",
+    "l-grid-item": "/wxcomponents/dist/grid-item/index",
+    "l-icon": "/wxcomponents/dist/icon/index",
+    "l-card": "/wxcomponents/dist/card/index",
+    "l-loadmore": "/wxcomponents/dist/loadmore/index",
+    "l-loading": "/wxcomponents/dist/loading/index",
+    "home": "/pages/home/home",
+    "person": "/pages/person/person",
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap61.json"
+}

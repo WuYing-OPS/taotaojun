@@ -1,0 +1,22 @@
+
+.cu-form-group {
+	min-height: 80rpx;
+}
+.cu-form-group .title {
+	min-width: calc(4em + 15px);
+}
+.cu-form-group>view:nth-of-type(1):before {
+	content: '*';
+	color: red;
+}
+.cu-bar>view.action:nth-of-type(1):before {
+	content: '*';
+	color: red;
+}
+.cu-form-group>view.grid-square:before {
+	content: '';
+}
+.bg-white {
+	border-top: 1px solid #eee;
+}
+
