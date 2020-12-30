@@ -15,7 +15,7 @@
 
 ### 1、进入初始化页面，选择登录
 
-<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-5ssicdcixptx16f9eb/d48566b0-4a7a-11eb-8ff1-d5dcf8779628.jpg" alt="image-20201230152443154" style="zoom:25%;" />
+![我的图片](https://github.com/Wuying-OPS/images/1.jpg)
 
 ### 2、进入登录页面，输入学号和密码，如果输入错误的操作会进行一系列的错误提示操作（在这就不过多演示了，直接输入正确的），登录成功后会直接跳转首页
 
