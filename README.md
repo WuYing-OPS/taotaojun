@@ -63,7 +63,7 @@
 
 ![我的图片](https://github.com/WuYing-OPS/taotaojun/blob/master/images/11.jpg)
 
-##### 以上就是主要的功能实现了哈哈，源码在分支上，最后的小tips：开源不易，觉得对您有帮助的，请给一个star，谢谢！
+##### 以上就是主要的功能实现了哈哈，最后的小tips：开源不易，觉得对您有帮助的，请给一个star，谢谢！
 
 ###### 
 
